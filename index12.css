@@ -1,0 +1,76 @@
+/* Importação da Fonte Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+/* Estilo do Corpo da Página */
+.custom-bg {
+    background-color: #F0924D;
+}
+
+.navbar-nav {
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+
+/* Estilo de Imagens e Vídeos */
+.figuras img, .videos video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; /* Mantém a proporção original */
+}
+
+.carousel-inner img {
+    width: 600px; /* Largura fixa */
+    height: 400px; /* Altura fixa */
+    object-fit: cover; /* Faz com que a imagem cubra o contêiner sem distorção */
+}
+
+.card-img-top {
+    height: 200px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+}
+
+/* Estilo das Seções */
+section {
+    margin: 30px;
+}
+
+/* Estilo dos Títulos */
+h1 {
+    color: #65E2F0;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    color: #4DA8B2;
+    text-transform: uppercase;
+}
+
+h3, h4 {
+    text-align: center; /* Centraliza os títulos h3 e h4 */
+    color: #87658d; /* Cor harmonizada para h3 e h4 */
+}
+
+/* Estilo dos Links */
+a {
+    color: #714878;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Indicação de link interativo */
+}
+
+/* Estilo do Footer */
+footer {
+    width: 100%; /* Largura total da tela */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    bottom: 0;
+    left: 0;
+    background-color: #45352A;
+    color: #FFFFFF;
+    padding: 10px;
+}
